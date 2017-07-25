@@ -1,0 +1,9 @@
+def complimentSymbol(symbol):
+    if symbol=='A':
+        return 'T'
+    elif symbol=='T':
+        return 'A'
+    elif symbol=='G':
+        return 'C'
+    elif symbol=='C':
+        return 'G'
