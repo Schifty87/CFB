@@ -7,3 +7,12 @@ def complimentSymbol(symbol):
         return 'C'
     elif symbol=='C':
         return 'G'
+
+def compliment(S):
+    if S=='':
+        return''
+    else:
+        return complimentSymbol(S[0]) + compliment(S[1:])
+
+
+print compliment('AATG')
